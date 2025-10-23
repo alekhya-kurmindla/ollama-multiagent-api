@@ -1,0 +1,22 @@
+# Web framework
+fastapi==0.119.1
+uvicorn==0.37.0
+
+# Agent orchestration & workflow
+langgraph==1.0.1
+langgraph-sdk==0.2.9
+langgraph-prebuilt==1.0.1
+langgraph-checkpoint==3.0.0
+xxhash==3.6.0
+ormsgpack==1.11.0
+
+# LLM abstraction
+langchain-ollama
+
+# Optional dependencies for HTTP requests & async support
+httpx>=0.28.0,<1
+pydantic>=2.12.0,<3
+anyio>=4.8.0,<5
+
+# Optional: dotenv for environment variables
+python-dotenv>=1.0.0
